@@ -1,4 +1,4 @@
-# readpost
+# Readpost
 
 Parse posts that are formated with Yaml and Markdown.
 
