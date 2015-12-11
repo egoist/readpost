@@ -1,0 +1,29 @@
+{
+  "name": "readpost",
+  "version": "0.1.0",
+  "description": "Parse posts that are formated with Yaml and Markdown",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/egoist/readpost.git"
+  },
+  "keywords": [
+    "markdown",
+    "yaml"
+  ],
+  "author": "EGOIST <0x142857@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/egoist/readpost/issues"
+  },
+  "homepage": "https://github.com/egoist/readpost#readme",
+  "devDependencies": {
+    "ava": "^0.7.0"
+  },
+  "dependencies": {
+    "js-yaml": "^3.4.6"
+  }
+}
