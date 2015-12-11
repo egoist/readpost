@@ -1,4 +1,4 @@
-# Readpost
+# Readpost [![Build Status](https://img.shields.io/circleci/project/egoist/readpost/master.svg)](https://circleci.com/gh/egoist/readpost/tree/master)
 
 Parse posts that are formated with Yaml and Markdown.
 
