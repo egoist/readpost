@@ -25,8 +25,8 @@ Usage:
 
 ```javascript
 const readpost = require('readpost');
-readpost('./post.md')
-  .then(data => console.log(data);
+const post = fs.readFileSync('./post.md', 'utf8');
+const data = readpost(post);
 // output:
 {
   meta: Object,

@@ -1,6 +1,6 @@
 {
   "name": "readpost",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Parse posts that are formated with Yaml and Markdown",
   "main": "index.js",
   "scripts": {
