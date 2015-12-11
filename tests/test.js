@@ -8,5 +8,5 @@ test('title', async t => {
 
 test('content', async t => {
   const data = await readPost('test.md');
-  t.same(data.content, '\r\n**he**\r\n---\r\n---\r\nhaha');
+  t.same(data.content, '\n**he**\n---\n---\nhaha');
 });
