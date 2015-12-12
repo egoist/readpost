@@ -4,6 +4,8 @@ module.exports = function readPost (data) {
   if (!data) {
     return null;
   }
+  // if the first line is started with `---` then remove this line
+  data = data.replace(/^\-.*\r?\n/, '');
   var index = data.indexOf('---');
   if (index < 0) {
     return null;
